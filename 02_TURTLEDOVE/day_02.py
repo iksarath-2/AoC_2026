@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("Day_02/d02_input.txt", header=None, delimiter=',')
+df = pd.read_csv("02_TURTLEDOVE/d02_input.txt", header=None, delimiter=',')
 data = df.to_numpy()
 id_sum = 0
 

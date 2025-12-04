@@ -17,7 +17,7 @@
 
 import pandas as pd    # for CSV reading
 
-df = pd.read_csv("01_PARTRIDGE/d01_input.txt")    # read input data into data frame
+df = pd.read_csv("01_PARTRIDGE/d01_input.txt", header=None, index_col=None)    # read input data into data frame
 data = df.to_numpy()    # convert data frame to numpy array
 current = 50    # set initial value of the dial (50 as given)
 count_part_1 = 0    # initialise 0-count for part 1
