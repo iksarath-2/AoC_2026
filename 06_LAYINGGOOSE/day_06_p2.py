@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import math
 
-df = pd.read_csv("06_GOOSEALAYING/d06_input.txt", header=None,)
+df = pd.read_csv("06_LAYINGGOOSE/d06_input.txt", header=None,)
 data = df.to_numpy()
 
 col_is = list()
