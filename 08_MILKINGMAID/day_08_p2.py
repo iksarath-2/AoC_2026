@@ -24,8 +24,8 @@ for jb1 in range(data.shape[0]):
             dists[jb1,jb2] = dist
             dists[jb2,jb1] = dist
             distlist.append(dist)
-    print(f"obtaining dists {jb1+1} out of {data.shape[0]}",)
-    distlist.sort()
+    print(f"obtaining dists {jb1+1} out of {data.shape[0]}")
+distlist.sort()
 components = list([1,2])
 i = 0
 while len(components) > 1: 

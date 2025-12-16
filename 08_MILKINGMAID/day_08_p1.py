@@ -24,7 +24,7 @@ for jb1 in range(data.shape[0]):
             dists[jb1,jb2] = dist
             dists[jb2,jb1] = dist
             distlist.append(dist)
-    distlist.sort()
+distlist.sort()
 
 for i in range(2*1000): ## 2*number of connections: 1 for jb1-jb2, 1 for jb2-jb1
     itemindex = np.where(dists == distlist[i])
