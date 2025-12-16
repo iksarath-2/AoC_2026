@@ -1,2 +1,2 @@
-# AoC_2026
-Advent of Code 2026
+# AoC_2025
+Advent of Code 2025
